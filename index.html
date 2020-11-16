@@ -69,7 +69,7 @@
                 <div class="d-flex justify-content-between align-items-center">
                   <div class="btn-group">
                     <button type="button" class="btn btn-sm btn-outline-secondary">Meer</button>
-                    <button type="button" class="btn btn-sm btn-outline-secondary">Start</button>
+                    <button type="button" class="btn btn-sm btn-outline-secondary" id="btn-start1">Start</button>
                   </div>
                   <small class="text-muted">120 min</small>
                 </div>
@@ -105,7 +105,7 @@
                 <div class="d-flex justify-content-between align-items-center">
                   <div class="btn-group">
                     <button type="button" class="btn btn-sm btn-outline-secondary">Meer</button>
-                    <button type="button" class="btn btn-sm btn-outline-secondary">Start</button>
+                    <button type="button" class="btn btn-sm btn-outline-secondary" id="btn-start2">Start</button>
                   </div>
                   <small class="text-muted">240 mins</small>
                 </div>
@@ -141,7 +141,7 @@
                 <div class="d-flex justify-content-between align-items-center">
                   <div class="btn-group">
                     <button type="button" class="btn btn-sm btn-outline-secondary">Meer</button>
-                    <button type="button" class="btn btn-sm btn-outline-secondary">Start</button>
+                    <button type="button" class="btn btn-sm btn-outline-secondary" id="btn-start3">Start</button>
                   </div>
                   <small class="text-muted">360 min</small>
                 </div>
@@ -178,43 +178,31 @@
                 <div class="d-flex justify-content-between align-items-center">
                   <div class="btn-group">
                     <button type="button" class="btn btn-sm btn-outline-secondary">Meer</button>
-                    <button type="button" class="btn btn-sm btn-outline-secondary">Start</button>
+                    <button type="button" class="btn btn-sm btn-outline-secondary" id="btn-start">Start</button>
                   </div>
                   <small class="text-muted">480 mins</small>
                 </div>
               </div>
-              
             </div>
           </div>
         </div>
-    </main>
-    <nav class="navbar fixed-bottom navbar-expand-sm navbar-dark bg-color">
-        <!-- <a class="navbar-brand" href="#">Bottom navbar</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarCollapse">
-          <ul class="navbar-nav mr-auto">
-            <li class="nav-item active">
-              <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Link</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
-            </li>
-            <li class="nav-item dropup">
-              <a class="nav-link dropdown-toggle" href="#" id="dropdown10" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Dropup</a>
-              <div class="dropdown-menu" aria-labelledby="dropdown10">
-                <a class="dropdown-item" href="#">Action</a>
-                <a class="dropdown-item" href="#">Another action</a>
-                <a class="dropdown-item" href="#">Something else here</a>
-              </div>
-            </li>
-          </ul>
-        </div> -->
-      </nav>
+      </div>
+    </div>
+  </div>
+
+  <div class="container-fluid bg-color-card container-timer">
+    <p class="timer text-center" id="timer">45:00</p>
+    <p class="text-center">
+      <button class="btn btn-timer" id="btn-pause"> pauze </button>
+      <button class="btn btn-timer" id="btn-reset"> reset </button>
+    </p>
+  </div>
+
+  <footer class="text-center bg-color">
+    <h6>&copy; NONOTECH 2020</h6>
+  </footer>
+
+</main>
 
     <!-- Optional JavaScript; choose one of the two! -->
 
@@ -229,6 +217,8 @@
       integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx"
       crossorigin="anonymous"
     ></script>
+
+    <script src="script.js"></script>
 
     <!-- Option 2: jQuery, Popper.js, and Bootstrap JS
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>

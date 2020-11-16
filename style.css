@@ -182,3 +182,28 @@ Css for the clock starts below*/
   background-color: #270f36;
   transform: translateX(-50%) rotate(calc(var(--rotation) * 1deg));
 }
+
+/* Hieronder begint de CSS voor de timer
+
+CSS for the timer starts below*/
+
+.container-timer {
+  padding-top: 14em;
+  padding-bottom: 14em;
+}
+
+.timer {
+  font-size: 6rem;
+}
+
+.btn-timer {
+  width: 200px;
+  justify-content: center;
+}
+
+/* footer */
+
+h6 {
+  padding: 1em;
+  margin-bottom: 0px;
+}
