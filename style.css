@@ -190,10 +190,12 @@ CSS for the timer starts below*/
 .container-timer {
   padding-top: 14em;
   padding-bottom: 14em;
+  text-align: center;
 }
 
 .timer {
   font-size: 6rem;
+  display: inline;
 }
 
 .btn-timer {
